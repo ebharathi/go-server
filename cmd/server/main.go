@@ -20,6 +20,7 @@ func main() {
 	}
 
 	utils.InitJWT()
+	utils.InitGoogleOAuth()
 	db.Init()
 
 	r := router.SetupRouter() // Setup routes
